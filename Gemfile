@@ -8,7 +8,7 @@ gem 'rails', '3.2.6'
 gem 'sqlite3', :group => "development"
 gem 'pg', :group => "production"
 gem 'json'
-
+gem 'thin'
 gem "bcrypt-ruby", :require => "bcrypt"
 
 # Gems used only for assets and not required
