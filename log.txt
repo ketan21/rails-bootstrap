@@ -1,0 +1,302 @@
+2012-07-16T18:33:03+00:00 heroku[web.1]: Starting process with command `bundle exec rails server thin -p 44499 -e production`
+2012-07-16T18:33:03+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-07-16T18:33:04+00:00 app[web.1]: Exiting
+2012-07-16T18:33:05+00:00 heroku[web.1]: Process exited with status 0
+2012-07-16T18:33:06+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-07-16T18:33:06+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-07-16T18:33:08+00:00 app[web.1]: => Booting Thin
+2012-07-16T18:33:08+00:00 app[web.1]: => Rails 3.2.6 application starting in production on http://0.0.0.0:44499
+2012-07-16T18:33:08+00:00 app[web.1]: => Call with -d to detach
+2012-07-16T18:33:08+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-07-16T18:33:08+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2012-07-16T18:33:08+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-07-16T18:33:08+00:00 app[web.1]: >> Listening on 0.0.0.0:44499, CTRL+C to stop
+2012-07-16T18:33:08+00:00 app[web.1]: >> Thin web server (v1.3.1 codename Triple Espresso)
+2012-07-16T18:33:09+00:00 heroku[web.1]: State changed from starting to up
+2012-07-16T18:33:33+00:00 app[web.1]: 
+2012-07-16T18:33:33+00:00 app[web.1]: 
+2012-07-16T18:33:33+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:33:33 +0000
+2012-07-16T18:33:33+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:33:33+00:00 app[web.1]:   Rendered sessions/_form.html.erb (1.9ms)
+2012-07-16T18:33:33+00:00 app[web.1]:   Rendered users/_form.html.erb (3.9ms)
+2012-07-16T18:33:33+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (20.3ms)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled bootstrap-responsive.min.css  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled modernizr-2.5.3.min.js  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Completed 200 OK in 1240ms (Views: 1152.8ms | ActiveRecord: 24.5ms)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled __main.css  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled _bootstrap.min.css  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled jquery_ujs.js  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled bootstrap.min.js  (0ms)  (pid 2)
+20
+12-07-16T18:33:34+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=1353ms status=200 bytes=6370
+2012-07-16T18:33:34+00:00 app[web.1]: 
+2012-07-16T18:33:34+00:00 app[web.1]: 
+2012-07-16T18:33:34+00:00 app[web.1]: Started GET "/assets/__main-2c48a8f12b24a1001e17e8fa1bd7ddf7.css" for 122.175.144.220 at 2012-07-16 18:33:34 +0000
+2012-07-16T18:33:34+00:00 app[web.1]: Served asset /__main-2c48a8f12b24a1001e17e8fa1bd7ddf7.css - 200 OK (0ms)
+2012-07-16T18:33:34+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/__main-2c48a8f12b24a1001e17e8fa1bd7ddf7.css dyno=web.1 queue=0 wait=0ms service=16ms status=200 bytes=10688
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/_bootstrap.min-c1a6892164885164a8df4b2f728b0e44.css" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /_bootstrap.min-c1a6892164885164a8df4b2f728b0e44.css - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/_bootstrap.min-c1a6892164885164a8df4b2f728b0e44.css dyno=web.1 queue=0 wait=0ms service=12ms status=200 bytes=82975
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/bootstrap-responsive.min-eb43e8a9437abf47efabaf6e1042cc0f.css" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/bootstrap-responsive.min-eb43e8a9437abf47efabaf6e1042cc0f.css dyno=web.1 queue=0 wait=0ms service=40ms status=200 bytes=10630
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /bootstrap-responsive.min-eb43e8a9437abf47efabaf6e1042cc0f.css - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/modernizr-2.5.3.min-a454c039ce13151caa6b4a0b9dbe0d61.js" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/jquery_ujs-3d4a64cce200efce3bd56089e1db21bc.js" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /modernizr-2.5.3.min-a454c039ce13151caa6b4a0b9dbe0d61.js - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /jquery_ujs-3d4a64cce200efce3bd56089e1db21bc.js - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/modernizr-2.5.3.min-a454c039ce13151caa6b4a0b9dbe0d61.js dyno=web.1 queue=0 wait=0ms service=43ms status=200 bytes=15272
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/jquery_ujs-3d4a64cce200efce3bd56089e1db21bc.js dyno=web.1 queue=0 wait=0ms service=24ms status=200 bytes=5509
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/bootstrap.min-a00bbc715a6543147e1a35ec4d6d001f.js" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /bootstrap.min-a00bbc715a6543147e1a35ec4d6d001f.js - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/bootstrap.min-a00bbc715a6543147e1a35ec4d6d001f.js dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=22337
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=2ms status=200 bytes=149
+2012-07-16T18:33:37+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/glyphicons-halflings.png dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=13826
+2012-07-16T18:33:37+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=3ms status=200 bytes=0
+2012-07-16T18:36:06+00:00 app[web.1]: Started POST "/users" for 122.175.144.220 at 2012-07-16 18:36:06 +0000
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: Processing by UsersController#create as HTML
+2012-07-16T18:36:06+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"kaT/nYxzRU3jGs4hm4Zs7E13dolCFEVT/wTeZRC4j88=", "user"=>{"email"=>"ketan.davvindore@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+2012-07-16T18:36:06+00:00 app[web.1]: Completed 302 Found in 206ms (ActiveRecord: 17.1ms)
+2012-07-16T18:36:06+00:00 app[web.1]: Redirected to http://stormy-winter-7266.herokuapp.com/
+2012-07-16T18:36:06+00:00 heroku[router]: POST stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=235ms status=302 bytes=106
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:36:06 +0000
+2012-07-16T18:36:06+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:36:06+00:00 app[web.1]:   Rendered sessions/_form.html.erb (0.9ms)
+2012-07-16T18:36:06+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (13.9ms)
+2012-07-16T18:36:06+00:00 app[web.1]:   Rendered users/_form.html.erb (5.3ms)
+2012-07-16T18:36:06+00:00 app[web.1]: Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+2012-07-16T18:36:06+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=59ms status=200 bytes=6469
+2012-07-16T18:36:07+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/glyphicons-halflings.png dyno=web.1 queue=0 wait=0ms service=4ms status=304 bytes=0
+2012-07-16T18:36:07+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=16ms status=304 bytes=0
+2012-07-16T18:36:08+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=14ms status=304 bytes=0
+2012-07-16T18:37:46+00:00 app[web.1]: 
+2012-07-16T18:37:46+00:00 app[web.1]: 
+2012-07-16T18:37:46+00:00 app[web.1]: Started POST "/sessions" for 122.175.144.220 at 2012-07-16 18:37:46 +0000
+2012-07-16T18:37:46+00:00 app[web.1]: Processing by SessionsController#create as HTML
+2012-07-16T18:37:46+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"kaT/nYxzRU3jGs4hm4Zs7E13dolCFEVT/wTeZRC4j88=", "email"=>"ketan.davvindore@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+2012-07-16T18:37:46+00:00 app[web.1]: Redirected to http://stormy-winter-7266.herokuapp.com/
+2012-07-16T18:37:46+00:00 app[web.1]: Completed 302 Found in 104ms (ActiveRecord: 2.4ms)
+2012-07-16T18:37:46+00:00 heroku[router]: POST stormy-winter-7266.herokuapp.com/sessions dyno=web.1 queue=0 wait=0ms service=113ms status=302 bytes=106
+2012-07-16T18:37:47+00:00 app[web.1]: 
+2012-07-16T18:37:47+00:00 app[web.1]: 
+2012-07-16T18:37:47+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:37:47 +0000
+2012-07-16T18:37:47+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:37:47+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (28.4ms)
+2012-07-16T18:37:47+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 4.1ms)
+2012-07-16T18:37:47+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=43ms status=200 bytes=4644
+2012-07-16T18:37:48+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:37:48+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=2ms status=304 bytes=0
+2012-07-16T18:33:08+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-07-16T18:33:08+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2012-07-16T18:33:08+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-07-16T18:33:08+00:00 app[web.1]: >> Listening on 0.0.0.0:44499, CTRL+C to stop
+2012-07-16T18:33:08+00:00 app[web.1]: >> Thin web server (v1.3.1 codename Triple Espresso)
+2012-07-16T18:33:09+00:00 heroku[web.1]: State changed from starting to up
+2012-07-16T18:33:33+00:00 app[web.1]: 
+2012-07-16T18:33:33+00:00 app[web.1]: 
+2012-07-16T18:33:33+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:33:33 +0000
+2012-07-16T18:33:33+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:33:33+00:00 app[web.1]:   Rendered sessions/_form.html.erb (1.9ms)
+2012-07-16T18:33:33+00:00 app[web.1]:   Rendered users/_form.html.erb (3.9ms)
+2012-07-16T18:33:33+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (20.3ms)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled bootstrap-responsive.min.css  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled modernizr-2.5.3.min.js  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Completed 200 OK in 1240ms (Views: 1152.8ms | ActiveRecord: 24.5ms)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled __main.css  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled _bootstrap.min.css  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled jquery_ujs.js  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 app[web.1]: Compiled bootstrap.min.js  (0ms)  (pid 2)
+2012-07-16T18:33:34+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=1353ms status=200 bytes=6370
+2012-07-16T18:33:34+00:00 app[web.1]: 
+2012-07-16T18:33:34+00:00 app[web.1]: 
+2012-07-16T18:33:34+00:00 app[web.1]: Started GET "/assets/__main-2c48a8f12b24a1001e17e8fa1bd7ddf7.css" for 122.175.144.220 at 2012-07-16 18:33:34 +0000
+2012-07-16T18:33:34+00:00 app[web.1]: Served asset /__main-2c48a8f12b24a1001e17e8fa1bd7ddf7.css - 200 OK (0ms)
+2012-07-16T18:33:34+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/__main-2c48a8f12b24a1001e17e8fa1bd7ddf7.css dyno=web.1 queue=0 wait=0ms service=16ms status=200 bytes=10688
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/_bootstrap.min-c1a6892164885164a8df4b2f728b0e44.css" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /_bootstrap.min-c1a6892164885164a8df4b2f728b0e44.css - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/_bootstrap.min-c1a6892164885164a8df4b2f728b0e44.css dyno=web.1 queue=0 wait=0ms service=12ms status=200 bytes=82975
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/bootstrap-responsive.min-eb43e8a9437abf47efabaf6e1042cc0f.css" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/bootstrap-responsive.min-eb43e8a9437abf47efabaf6e1042cc0f.css dyno=web.1 queue=0 wait=0ms service=40ms status=200 bytes=10630
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /bootstrap-responsive.min-eb43e8a9437abf47efabaf6e1042cc0f.css - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/modernizr-2.5.3.min-a454c039ce13151caa6b4a0b9dbe0d61.js" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/jquery_ujs-3d4a64cce200efce3bd56089e1db21bc.js" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /modernizr-2.5.3.min-a454c039ce13151caa6b4a0b9dbe0d61.js - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /jquery_ujs-3d4a64cce200efce3bd56089e1db21bc.js - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/modernizr-2.5.3.min-a454c039ce13151caa6b4a0b9dbe0d61.js dyno=web.1 queue=0 wait=0ms service=43ms status=200 bytes=15272
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/jquery_ujs-3d4a64cce200efce3bd56089e1db21bc.js dyno=web.1 queue=0 wait=0ms service=24ms status=200 bytes=5509
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: 
+2012-07-16T18:33:35+00:00 app[web.1]: Started GET "/assets/bootstrap.min-a00bbc715a6543147e1a35ec4d6d001f.js" for 122.175.144.220 at 2012-07-16 18:33:35 +0000
+2012-07-16T18:33:35+00:00 app[web.1]: Served asset /bootstrap.min-a00bbc715a6543147e1a35ec4d6d001f.js - 200 OK (0ms)
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/bootstrap.min-a00bbc715a6543147e1a35ec4d6d001f.js dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=22337
+2012-07-16T18:33:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=2ms status=200 bytes=149
+2012-07-16T18:33:37+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/glyphicons-halflings.png dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=13826
+2012-07-16T18:33:37+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=3ms status=200 bytes=0
+2012-07-16T18:36:06+00:00 app[web.1]: Started POST "/users" for 122.175.144.220 at 2012-07-16 18:36:06 +0000
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: Processing by UsersController#create as HTML
+2012-07-16T18:36:06+00:00 app[web.1]:   Parameters: {"ut
+f8"=>"✓", "authenticity_token"=>"kaT/nYxzRU3jGs4hm4Zs7E13dolCFEVT/wTeZRC4j88=", "user"=>{"email"=>"ketan.davvindore@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+2012-07-16T18:36:06+00:00 app[web.1]: Completed 302 Found in 206ms (ActiveRecord: 17.1ms)
+2012-07-16T18:36:06+00:00 app[web.1]: Redirected to http://stormy-winter-7266.herokuapp.com/
+2012-07-16T18:36:06+00:00 heroku[router]: POST stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=235ms status=302 bytes=106
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: 
+2012-07-16T18:36:06+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:36:06 +0000
+2012-07-16T18:36:06+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:36:06+00:00 app[web.1]:   Rendered sessions/_form.html.erb (0.9ms)
+2012-07-16T18:36:06+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (13.9ms)
+2012-07-16T18:36:06+00:00 app[web.1]:   Rendered users/_form.html.erb (5.3ms)
+2012-07-16T18:36:06+00:00 app[web.1]: Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+2012-07-16T18:36:06+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=59ms status=200 bytes=6469
+2012-07-16T18:36:07+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/glyphicons-halflings.png dyno=web.1 queue=0 wait=0ms service=4ms status=304 bytes=0
+2012-07-16T18:36:07+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=16ms status=304 bytes=0
+2012-07-16T18:36:08+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=14ms status=304 bytes=0
+2012-07-16T18:37:46+00:00 app[web.1]: 
+2012-07-16T18:37:46+00:00 app[web.1]: 
+2012-07-16T18:37:46+00:00 app[web.1]: Started POST "/sessions" for 122.175.144.220 at 2012-07-16 18:37:46 +0000
+2012-07-16T18:37:46+00:00 app[web.1]: Processing by SessionsController#create as HTML
+2012-07-16T18:37:46+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"kaT/nYxzRU3jGs4hm4Zs7E13dolCFEVT/wTeZRC4j88=", "email"=>"ketan.davvindore@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+2012-07-16T18:37:46+00:00 app[web.1]: Redirected to http://stormy-winter-7266.herokuapp.com/
+2012-07-16T18:37:46+00:00 app[web.1]: Completed 302 Found in 104ms (ActiveRecord: 2.4ms)
+2012-07-16T18:37:46+00:00 heroku[router]: POST stormy-winter-7266.herokuapp.com/sessions dyno=web.1 queue=0 wait=0ms service=113ms status=302 bytes=106
+2012-07-16T18:37:47+00:00 app[web.1]: 
+2012-07-16T18:37:47+00:00 app[web.1]: 
+2012-07-16T18:37:47+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:37:47 +0000
+2012-07-16T18:37:47+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:37:47+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (28.4ms)
+2012-07-16T18:37:47+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 4.1ms)
+2012-07-16T18:37:47+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=43ms status=200 bytes=4644
+2012-07-16T18:37:48+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:37:48+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=2ms status=304 bytes=0
+2012-07-16T18:38:54+00:00 app[web.1]: 
+2012-07-16T18:38:54+00:00 app[web.1]: 
+2012-07-16T18:38:54+00:00 app[web.1]: Started GET "/users" for 122.175.144.220 at 2012-07-16 18:38:54 +0000
+2012-07-16T18:38:54+00:00 app[web.1]: Processing by UsersController#index as HTML
+2012-07-16T18:38:54+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (2.4ms)
+2012-07-16T18:38:54+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 4.2ms)
+2012-07-16T18:38:54+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=22ms status=200 bytes=4722
+2012-07-16T18:38:55+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:38:55+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:36:07+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/glyphicons-halflings.png dyno=web.1 queue=0 wait=0ms service=4ms status=304 bytes=0
+2012-07-16T18:36:07+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=16ms status=304 bytes=0
+2012-07-16T18:36:08+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=14ms status=304 bytes=0
+2012-07-16T18:37:46+00:00 app[web.1]: 
+2012-07-16T18:37:46+00:00 app[web.1]: 
+2012-07-16T18:37:46+00:00 app[web.1]: Started POST "/sessions" for 122.175.144.220 at 2012-07-16 18:37:46 +0000
+2012-07-16T18:37:46+00:00 app[web.1]: Processing by SessionsController#create as HTML
+2012-07-16T18:37:46+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"kaT/nYxzRU3jGs4hm4Zs7E13dolCFEVT/wTeZRC4j88=", "email"=>"ketan.davvindore@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+2012-07-16T18:37:46+00:00 app[web.1]: Redirected to http://stormy-winter-7266.herokuapp.com/
+2012-07-16T18:37:46+00:00 app[web.1]: Completed 302 Found in 104ms (ActiveRecord: 2.4ms)
+2012-07-16T18:37:46+00:00 heroku[router]: POST stormy-winter-7266.herokuapp.com/sessions dyno=web.1 queue=0 wait=0ms service=113ms status=302 bytes=106
+2012-07-16T18:37:47+00:00 app[web.1]: 
+2012-07-16T18:37:47+00:00 app[web.1]: 
+2012-07-16T18:37:47+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:37:47 +0000
+2012-07-16T18:37:47+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:37:47+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (28.4ms)
+2012-07-16T18:37:47+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 4.1ms)
+2012-07-16T18:37:47+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=43ms status=200 bytes=4644
+2012-07-16T18:37:48+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:37:48+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=2ms status=304 bytes=0
+2012-07-16T18:38:54+00:00 app[web.1]: 
+2012-07-16T18:38:54+00:00 app[web.1]: 
+2012-07-16T18:38:54+00:00 app[web.1]: Started GET "/users" for 122.175.144.220 at 2012-07-16 18:38:54 +0000
+2012-07-16T18:38:54+00:00 app[web.1]: Processing by UsersController#index as HTML
+2012-07-16T18:38:54+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (2.4ms)
+2012-07-16T18:38:54+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 4.2ms)
+2012-07-16T18:38:54+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=22ms status=200 bytes=4722
+2012-07-16T18:38:55+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:38:55+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=3ms status=304 bytes=0
+2012-07-16T18:39:04+00:00 app[web.1]: 
+2012-07-16T18:39:04+00:00 app[web.1]: 
+2012-07-16T18:39:04+00:00 app[web.1]: Started GET "/users/1" for 122.175.144.220 at 2012-07-16 18:39:04 +0000
+2012-07-16T18:39:04+00:00 app[web.1]: Processing by UsersController#show as HTML
+2012-07-16T18:39:04+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2012-07-16T18:39:04+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (0.4ms)
+2012-07-16T18:39:04+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 4.4ms | ActiveRecord: 5.3ms)
+2012-07-16T18:39:04+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users/1 dyno=web.1 queue=0 wait=0ms service=22ms status=200 bytes=4322
+2012-07-16T18:39:10+00:00 app[web.1]: 
+2012-07-16T18:39:10+00:00 app[web.1]: 
+2012-07-16T18:39:10+00:00 app[web.1]: Started GET "/users" for 122.175.144.220 at 2012-07-16 18:39:10 +0000
+2012-07-16T18:39:10+00:00 app[web.1]: Processing by UsersController#index as HTML
+2012-07-16T18:39:10+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (1.1ms)
+2012-07-16T18:39:10+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=32ms status=304 bytes=0
+2012-07-16T18:39:10+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 10.5ms | ActiveRecord: 4.0ms)
+2012-07-16T18:39:15+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:39:15 +0000
+2012-07-16T18:39:15+00:00 app[web.1]: 
+2012-07-16T18:39:15+00:00 app[web.1]: 
+2012-07-16T18:39:15+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:39:15+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (3.0ms)
+2012-07-16T18:39:15+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=14ms status=200 bytes=4545
+2012-07-16T18:39:15+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 2.0ms)
+2012-07-16T18:39:17+00:00 app[web.1]: Started GET "/users" for 122.175.144.220 at 2012-07-16 18:39:17 +0000
+2012-07-16T18:39:17+00:00 app[web.1]: Processing by UsersController#index as HTML
+2012-07-16T18:39:17+00:00 app[web.1]: 
+2012-07-16T18:39:17+00:00 app[web.1]: 
+2012-07-16T18:39:17+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (1.9ms)
+2012-07-16T18:39:17+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 5.0ms | ActiveRecord: 3.9ms)
+2012-07-16T18:39:17+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=19ms status=304 bytes=0
+2012-07-16T18:39:20+00:00 app[web.1]: 
+2012-07-16T18:39:20+00:00 app[web.1]: 
+2012-07-16T18:39:20+00:00 app[web.1]: Started GET "/users/1/edit" for 122.175.144.220 at 2012-07-16 18:39:20 +0000
+2012-07-16T18:39:20+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2012-07-16T18:39:20+00:00 app[web.1]: Processing by UsersController#edit as HTML
+2012-07-16T18:39:20+00:00 app[web.1]:   Rendered users/edit.html.erb within layouts/application (3.7ms)
+2012-07-16T18:39:20+00:00 app[web.1]:   Rendered users/_form.html.erb (2.9ms)
+2012-07-16T18:39:20+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 7.2ms)
+2012-07-16T18:39:20+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users/1/edit dyno=web.1 queue=0 wait=0ms service=29ms status=200 bytes=5171
+2012-07-16T18:39:25+00:00 app[web.1]: 
+2012-07-16T18:39:25+00:00 app[web.1]: 
+2012-07-16T18:39:25+00:00 app[web.1]: Started GET "/users" for 122.175.144.220 at 2012-07-16 18:39:25 +0000
+2012-07-16T18:39:25+00:00 app[web.1]: Processing by UsersController#index as HTML
+2012-07-16T18:39:25+00:00 app[web.1]:   Rendered users/index.html.erb within layouts/application (1.1ms)
+2012-07-16T18:39:25+00:00 app[web.1]: Completed 200 OK in 25ms (Views: 15.8ms | ActiveRecord: 4.9ms)
+2012-07-16T18:39:25+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/users dyno=web.1 queue=0 wait=0ms service=54ms status=304 bytes=0
+2012-07-16T18:39:27+00:00 app[web.1]: 
+2012-07-16T18:39:27+00:00 app[web.1]: 
+2012-07-16T18:39:27+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:39:27 +0000
+2012-07-16T18:39:27+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:39:27+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (2.8ms)
+2012-07-16T18:39:27+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 2.1ms)
+2012-07-16T18:39:27+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=51ms status=304 bytes=0
+2012-07-16T18:39:34+00:00 app[web.1]: 
+2012-07-16T18:39:34+00:00 app[web.1]: Started GET "/log_out" for 122.175.144.220 at 2012-07-16 18:39:34 +0000
+2012-07-16T18:39:34+00:00 app[web.1]: 
+2012-07-16T18:39:34+00:00 app[web.1]: Processing by SessionsController#destroy as HTML
+2012-07-16T18:39:34+00:00 app[web.1]: Redirected to http://stormy-winter-7266.herokuapp.com/
+2012-07-16T18:39:34+00:00 app[web.1]: Completed 302 Found in 3ms (ActiveRecord: 2.0ms)
+2012-07-16T18:39:34+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/log_out dyno=web.1 queue=0 wait=0ms service=13ms status=302 bytes=106
+2012-07-16T18:39:34+00:00 app[web.1]: 
+2012-07-16T18:39:34+00:00 app[web.1]: Started GET "/" for 122.175.144.220 at 2012-07-16 18:39:34 +0000
+2012-07-16T18:39:34+00:00 app[web.1]: 
+2012-07-16T18:39:34+00:00 app[web.1]: Processing by UsersController#home as HTML
+2012-07-16T18:39:34+00:00 app[web.1]:   Rendered sessions/_form.html.erb (0.8ms)
+2012-07-16T18:39:34+00:00 app[web.1]:   Rendered users/_form.html.erb (1.5ms)
+2012-07-16T18:39:34+00:00 app[web.1]:   Rendered users/home.html.erb within layouts/application (2.8ms)
+2012-07-16T18:39:34+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+2012-07-16T18:39:34+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=41ms status=200 bytes=6470
+2012-07-16T18:39:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/glyphicons-halflings.png dyno=web.1 queue=0 wait=0ms service=11ms status=304 bytes=0
+2012-07-16T18:39:35+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/assets/application-9b24a1ab44166e4b719725af425ba81e.js dyno=web.1 queue=0 wait=0ms service=2ms status=304 bytes=0
+2012-07-16T18:39:36+00:00 heroku[router]: GET stormy-winter-7266.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=1ms status=304 bytes=0
